@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="bk101">
+      <author>Lunsford, Andrea A.</author>
+	  <author>Ruszkiewicz, John J.</author>
+      <title>everything's an argument</title>
+      <genre>Self Development</genre>
+      <description>Attributes 
+      readable
+	  illustrative</description>
+   </book>
+  </catalog>
