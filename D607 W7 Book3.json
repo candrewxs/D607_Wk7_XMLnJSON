@@ -1,11 +1,10 @@
-"Self Development": {
+{
   "Self Development": [
     {
-        "No": "3",
-        "Name": "Emotional Intelligence 2.0",
-        "Attributes": "emotional, strategic"
-		"Authors": "Travis Bradberry & Jean Greaves"
+      "No":"3",
+      "Name":"Emotional Intelligence 2.0",
+      "Attributes":"emotional,strategic",
+		  "Authors":"Travis Bradberry, Jean Greaves"
     }
-    ],
-    }
+  ]
 }
