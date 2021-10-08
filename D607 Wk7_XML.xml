@@ -1,0 +1,30 @@
+<?xml version="1.0 encoding="UTF-8"?>
+
+<Books>
+	<Book Id="1">
+	<Title>everything's an argument</Title>
+	<Authors>Andrea A. Lunsford, John J. Ruszkiewicz</Authors>
+	<Genre>Self Development</Genre>
+	<Length>513</Length>
+	<Review>Illustrative</Review>
+	<IBSN>9781457606069</IBSN>
+    </Book>
+	
+	<Book Id="2">
+	<Title>The Richest Man In Babylon</Title>
+	<Author>George S. Clason</Author>
+	<Genre>Self Development</Genre>
+	<Length>90</Length>
+	<Review>Insightful</Review>
+	<IBSN>9781939438638</IBSN>
+    </Book>
+	
+	<Book Id="3">
+	<Title>Emotional Intelligence 2.0</Title>
+	<Authors>Travis Bradberry, Jean Greaves</Author>
+	<Genre>Self Development</Genre>
+	<Length>255</Length>
+	<Review>Strategic</Review>
+	<IBSN>978097432065</IBSN>
+	</Book>
+</Record>
