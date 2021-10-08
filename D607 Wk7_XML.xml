@@ -1,4 +1,4 @@
-<?xml version="1.0 encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Books>
 	<Book id="01">
@@ -19,9 +19,9 @@
 	
 	<Book id="03">
 	<Title>Emotional Intelligence 2.0</Title>
-	<Authors>Travis Bradberry, Jean Greaves</Author>
+	<Authors>Travis Bradberry, Jean Greaves</Authors>
 	<Length>255</Length>
 	<Review>Strategic</Review>
 	<IBSN>978097432065</IBSN>
 	</Book>
-</Record>
+</Books>
