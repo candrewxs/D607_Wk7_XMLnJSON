@@ -1,8 +1,9 @@
+<?xml version="1.0 encoding="UTF-8"?>
 <Record>
-   <book id="bk102">
-      <author>Clason, George S.</author>
-	  <title>The Richest Man In Babylon</title>
-      <genre>Self Development</genre>
-      <attributes>Insightful, Rational</attributes>
+	<book id="bk102">
+	<author>Clason, George S.</author>
+	<title>The Richest Man In Babylon</title>
+	<genre>Self Development</genre>
+	<attributes>Insightful, Rational</attributes>
     </book>
-  </Record>
+</Record>
