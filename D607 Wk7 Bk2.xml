@@ -3,8 +3,6 @@
       <author>Clason, George S.</author>
 	  <title>The Richest Man In Babylon</title>
       <genre>Self Development</genre>
-      <description>Attributes 
-      insightful
-	  rational</description>
-   </book>
+      <attributes>Insightful, Rational</attributes>
+    </book>
   </Record>
