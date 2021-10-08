@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<catalog>
+<Record>
    <book id="bk102">
       <author>Clason, George S.</author>
 	  <title>The Richest Man In Babylon</title>
@@ -8,4 +7,4 @@
       insightful
 	  rational</description>
    </book>
-  </catalog>
+  </Record>
