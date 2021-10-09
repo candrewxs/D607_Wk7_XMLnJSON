@@ -2,15 +2,13 @@
  	{"Book Id": "1",
 	 "Title": "everything's an argument",
 	 "Authors": ["Andrea A. Lunsford", "John J. Ruskiewicz"],
-	 "Genre": ["Self Development'],
 	 "Length": ["513"],
 	 "Review": ["Illustrative"],
 	 "ISBN": ["9781457606069"]
 	},
-	{"Book Id": "2"
+	{"Book Id": "2",
 	 "Title": "The Richest Man In Babylon",
 	 "Authors": ["George S. Clason"],
-	 "Genre": ["Self Development"],
 	 "Length": ["90"],
 	 "Review": ["Insightful"],
 	 "ISBN": ["9781939438638"]
@@ -18,7 +16,6 @@
 	{"Book Id":"3",
 	 "Title": "Emotional Insightful 2.0",
 	 "Authors": ["Travis Bradberry", "Jean Greaves"],
-	 "Genre": ["Self Development"],
 	 "Length": ["255"],
 	 "Review": ["Strategic"],
 	 "ISBN": ["978097432065"]
