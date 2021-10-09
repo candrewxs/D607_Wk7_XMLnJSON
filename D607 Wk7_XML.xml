@@ -11,7 +11,7 @@
 	
 	<Book id="02">
 	<Title>The Richest Man In Babylon</Title>
-	<Author>George S. Clason</Author>
+	<Authors>George S. Clason</Authors>
 	<Length>90</Length>
 	<Review>Insightful</Review>
 	<IBSN>9781939438638</IBSN>
