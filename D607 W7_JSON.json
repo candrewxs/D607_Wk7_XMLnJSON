@@ -1,7 +1,7 @@
 {"Books": [
  	{"Book Id": "1",
 	 "Title": "everything's an argument",
-	 "Authors": ["Andrea A. Lunsford", "John J. Ruskiewicz"],
+	 "Authors": ["Andrea A. Lunsford , John J. Ruskiewicz"],
 	 "Length": ["513"],
 	 "Review": ["Illustrative"],
 	 "ISBN": ["9781457606069"]
@@ -15,7 +15,7 @@
 	},
 	{"Book Id":"3",
 	 "Title": "Emotional Insightful 2.0",
-	 "Authors": ["Travis Bradberry", "Jean Greaves"],
+	 "Authors": ["Travis Bradberry , Jean Greaves"],
 	 "Length": ["255"],
 	 "Review": ["Strategic"],
 	 "ISBN": ["978097432065"]
