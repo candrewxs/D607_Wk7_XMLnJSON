@@ -1,0 +1,106 @@
+---
+title: "Working with XML and JSON in R"
+author: "Coffy Andrews-Guo"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment
+
+Three of my favorite books on 'Self Development' were selected this assignment. The assignment involves working with XML and JSON files with these criteria: _(1) At least one of the books should have more than one author. (2)For each book, include the title, authors, and two or three other attributes that you find interesting._
+
+The three books and criteria was separately created in three files:_(1) HTML (using an html table), (2) XML, and (3) JSON formats (e.g. “books.html”, “books.xml”, and “books.json”). These files were created in a code editor (Notepad++).
+
+All three file sources were loaded in R as separate data frames. In my observation all three sources when converted to a data frame have a similar structure and parsing (to character class) expression.
+
+
+## Load Package
+```{r}
+library("textreadr")  # package to read HTML file
+library("XML")        # package to read XML file
+library("methods")    # also load the other required XML package
+library("xml2")       # alternative package to read XML file
+library("jsonlite")   # package to read JSON files
+library("rvest")      # package to parse html table into a data frame
+
+library("tidyverse")
+library("dplyr")
+```
+
+
+
+## HTML File
+```{r}
+HTML_file <- read_html("https://raw.githubusercontent.com/candrewxs/D607_Wk7_XMLnJSON/main/D607%20Wk7_HTML.html")
+
+print(HTML_file)
+```
+
+Convert data type to an R data frame
+```{r}
+HTML_df <- HTML_file %>%
+  html_table() %>%
+  as.data.frame()
+
+HTML_df
+```
+
+Tidy data
+```{r}
+# transform the ISBN entries numerics to character to show entire length
+HTML_df$ISBN <- as.character(HTML_df$ISBN)
+
+HTML_df
+```
+
+
+
+
+
+## XML File 
+```{r}
+url_xml <- "https://raw.githubusercontent.com/candrewxs/D607_Wk7_XMLnJSON/main/D607%20Wk7_XML.xml"
+
+print(url_xml)
+```
+Convert XML file and tidy data in R
+```{r}
+book_xml <- read_xml(url_xml)
+book_xml <- xmlParse(book_xml) %>% xmlToDataFrame()
+
+Books.Id <- c(1, 2, 3)      # define new column to add
+book_xml2 <- cbind(Books.Id, book_xml) # add column called 'Books.Id'
+
+book_xml2
+```
+
+
+
+## JSON File
+```{r}
+JSON_file <- fromJSON("https://raw.githubusercontent.com/candrewxs/D607_Wk7_XMLnJSON/main/D607%20W7_JSON.json")
+
+print(JSON_file)
+```
+
+Convert JSON file and tidy _was unable to remove index from table_
+```{r}
+JSON_df <- as.data.frame(JSON_file)
+
+colnames(JSON_df) <- c("Books.Id", "Title", "Authors", "Length", "Review", "ISBN")
+
+JSON_df$Authors <- as.character(JSON_df$Authors)
+JSON_df$Length <- as.character(JSON_df$Length)
+JSON_df$Review <- as.character(JSON_df$Review)
+JSON_df$ISBN <- as.character(JSON_df$ISBN)
+JSON_df
+
+```
+
+
+
+
