@@ -87,7 +87,7 @@ JSON_file <- fromJSON("https://raw.githubusercontent.com/candrewxs/D607_Wk7_XMLn
 print(JSON_file)
 ```
 
-Convert JSON file and tidy _was unable to remove index from table_
+Convert JSON file and tidy
 ```{r}
 JSON_df <- as.data.frame(JSON_file)
 
@@ -103,4 +103,6 @@ JSON_df
 
 
 
-
+### Source: 
+[GitHub](https://raw.githubusercontent.com/candrewxs/D607_Wk7_XMLnJSON/main/D607_XML%20n%20JSON.Rmd)
+[RPubs](https://rpubs.com/blesned/XMLnJSON)

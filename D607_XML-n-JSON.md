@@ -170,7 +170,7 @@ print(JSON_file)
     ## 2     90   Insightful 9781939438638
     ## 3    255    Strategic  978097432065
 
-Convert JSON file and tidy *was unable to remove index from table*
+Convert JSON file and tidy
 
 ``` r
 JSON_df <- as.data.frame(JSON_file)
@@ -192,3 +192,8 @@ JSON_df
     ## 1    513 Illustrative 9781457606069
     ## 2     90   Insightful 9781939438638
     ## 3    255    Strategic  978097432065
+
+### Source:
+
+[GitHub](https://raw.githubusercontent.com/candrewxs/D607_Wk7_XMLnJSON/main/D607_XML%20n%20JSON.Rmd)
+[RPubs](https://rpubs.com/blesned/XMLnJSON)
